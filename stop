@@ -1,0 +1,2 @@
+docker stop dockerized 
+docker rm dockerized
