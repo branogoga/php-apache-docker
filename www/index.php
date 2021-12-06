@@ -8,7 +8,20 @@
     <title>Hello, Dockerized PHP!</title>
   </head>
   <body>
-    <h1>Hello, Dockerized PHP!</h1>
+    <?php
+      echo "<h1>Hello, Dockerized PHP!";
+    ?>
+    <?php
+      $host = 'db';
+      $user = 'app_user';
+      $pass = 't3rceS';
+      $conn = new mysqli($host, $user, $pass);
+      if ($conn->connect_error) {
+          die("<h2>Connection failed: " . $conn->connect_error."</h2>");
+      } else {
+          echo "<h2>Connected to MySQL server successfully!</h2>";
+      }      
+    ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
   </body>
 </html>

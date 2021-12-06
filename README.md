@@ -2,11 +2,11 @@
 
 Template of simple PHP web application running in Apache.
 
-### Build container
+### (Re-)Build container
 
 Updates the Composer dependencies:
 
-`./build`
+`./rebuild`
 
 ### Run application
 

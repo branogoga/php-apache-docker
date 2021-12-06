@@ -1,2 +1,0 @@
-composer install
-docker build -t dockerized .
