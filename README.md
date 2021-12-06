@@ -14,6 +14,7 @@ Updates the Composer dependencies:
 
 - `http://localhost:8101`- Application
 - `http://localhost:8102`- Adminer
+- `http://localhost:8103`- PHP MyAdmin
 
 ### Stop application
 
