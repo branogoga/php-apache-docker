@@ -1,1 +1,0 @@
-docker run -d -v $(pwd):/var/www/html -p 80:80 --name dockerized dockerized

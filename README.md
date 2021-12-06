@@ -4,14 +4,17 @@ Template of simple PHP web application running in Apache.
 
 ### Build container
 
+Updates the Composer dependencies:
+
 `./build`
 
 ### Run application
 
-`./start`
+`docker-compose up -d`
 
-Access the application at `http://localhost`
+- `http://localhost:8101`- Application
+- `http://localhost:8102`- Adminer
 
 ### Stop application
 
-`./stop`
+`docker-compose down`
